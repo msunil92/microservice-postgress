@@ -1,0 +1,47 @@
+2020-08-27T14:16:18.937+0530 INFO Starting MicroservicePostgressApplication v0.0.1-SNAPSHOT on a483e7ac0b83 with PID 80532 (/Users/z004m9c/IdeaProjects/microservice-postgress/target/student.jar started by z004m9c in /Users/z004m9c/IdeaProjects/microservice-postgress)
+2020-08-27T14:16:18.944+0530 INFO No active profile set, falling back to default profiles: default
+2020-08-27T14:16:19.553+0530 INFO Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-27T14:16:19.611+0530 INFO Finished Spring Data repository scanning in 51ms. Found 1 JPA repository interfaces.
+2020-08-27T14:16:20.105+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2020-08-27T14:16:20.115+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-27T14:16:20.116+0530 INFO Starting service [Tomcat]
+2020-08-27T14:16:20.116+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-27T14:16:20.184+0530 INFO Initializing Spring embedded WebApplicationContext
+2020-08-27T14:16:20.185+0530 INFO Root WebApplicationContext: initialization completed in 1200 ms
+2020-08-27T14:16:20.425+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27T14:16:20.445+0530 INFO HikariPool-1 - Starting...
+2020-08-27T14:16:20.565+0530 INFO HikariPool-1 - Start completed.
+2020-08-27T14:16:20.698+0530 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-27T14:16:20.795+0530 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-27T14:16:21.129+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2020-08-27T14:16:21.167+0530 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2020-08-27T14:16:21.169+0530 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-27T14:16:21.463+0530 INFO HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-27T14:16:21.672+0530 INFO HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-27T14:16:21.971+0530 INFO HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-08-27T14:16:22.937+0530 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-27T14:16:22.948+0530 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-27T14:16:22.951+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27T14:16:22.952+0530 INFO HikariPool-1 - Shutdown initiated...
+2020-08-27T14:16:22.957+0530 INFO HikariPool-1 - Shutdown completed.
+2020-08-27T14:16:22.959+0530 INFO Pausing ProtocolHandler ["http-nio-8080"]
+2020-08-27T14:16:22.960+0530 INFO Stopping service [Tomcat]
+2020-08-27T14:16:22.963+0530 INFO Stopping ProtocolHandler ["http-nio-8080"]
+2020-08-27T14:16:22.963+0530 INFO Destroying ProtocolHandler ["http-nio-8080"]
+2020-08-27T14:16:22.970+0530 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-27T14:16:22.972+0530 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
