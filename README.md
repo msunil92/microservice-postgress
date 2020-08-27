@@ -18,3 +18,7 @@ insert into student (id, firstname, lastname, age) values (3,'Krishna','Vasudeva
 insert into student (id, firstname, lastname, age) values (4,'Shankar','K',17);
 
 select  * from student;
+
+http://localhost:8080/health
+
+http://localhost:8080/student
