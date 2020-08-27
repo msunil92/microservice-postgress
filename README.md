@@ -1,8 +1,12 @@
-#Microservice-Postgres
+# Microservice-Postgres
 
-##create table:
+- ### Code
+```
+git clone git@github.com:msunil92/microservice-postgress.git
+```
 
-
+- ### Create table
+```
 drop table if exists student;
 
 CREATE TABLE if not exists student (
@@ -18,7 +22,21 @@ insert into student (id, firstname, lastname, age) values (3,'Krishna','Vasudeva
 insert into student (id, firstname, lastname, age) values (4,'Shankar','K',17);
 
 select  * from student;
+```
 
-http://localhost:8080/health
+- ### To start
+```
+./run.sh
+```
 
-http://localhost:8080/student
+- ### Server host and port
+```
+http://localhost:8080
+```
+
+- ### Avaliable API's
+```
+/health
+/student
+/student{id}
+```
